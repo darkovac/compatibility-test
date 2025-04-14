@@ -20,7 +20,7 @@ const TestQuestion = () => {
         </h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           {[
-            { value: '1', label: 'Trenutni režim (SNS i drugari)' },
+            { value: '1', label: 'Trenutni režim (SNS i ćaciji)' },
             { value: '2', label: 'Neutralnost, ne tiče me se' },
             { value: '3', label: 'Studentski antirežimski pokret' }
           ].map((option) => (
