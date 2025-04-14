@@ -9,19 +9,19 @@ const ResultPage = () => {
     switch (choice) {
       case '1':
         return {
-          image: '/images/bloody-hands.jpg',
+          image: `${import.meta.env.BASE_URL}/images/bloody-hands.jpg`,
           alt: 'Bloody hands',
           description: 'Ili si glupa uplašena ovca ili si kriminalac!'
         };
       case '2':
         return {
-          image: "/images/confused-face.jpg",
+          image: `${import.meta.env.BASE_URL}/images/confused-face.jpg`,
           alt: "Confused face",
           description: "Ti si budala koja misli da je pametna i da može da izbegne politiku!",
         };
       case '3':
         return {
-          image: "/images/clean-hands.jpg",
+          image: `${import.meta.env.BASE_URL}/images/clean-hands.jpg`,
           alt: "Clean hands with thumbs up",
           description: "Nezavisne institucije i borba protiv korupcije je jedini izbor koji je u isto vreme i pametan i dobar!",
         };

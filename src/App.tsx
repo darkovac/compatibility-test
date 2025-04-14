@@ -4,7 +4,7 @@ import ResultPage from './components/ResultPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/compatibility-test">
       <div className="min-h-screen bg-gray-900">
         <Routes>
           <Route path="/" element={<TestQuestion />} />
